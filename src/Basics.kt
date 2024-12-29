@@ -26,8 +26,8 @@ fun main() {
 //        count--
 //    } while (count >= 0)
 
-//    repeat(10){
-//        println("Hola, mi amigos")
-//    }
+    repeat(10){
+        println("Hola, mi amigos")
+    }
 
 }
