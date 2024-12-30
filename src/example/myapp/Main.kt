@@ -1,7 +1,8 @@
 package example.myapp
 
 fun main(){
-    buildAquarium()
+//    buildAquarium()
+    makeFish()
 }
 
 fun buildAquarium(){
@@ -22,9 +23,19 @@ fun buildAquarium(){
 //    val aquarium6 = Aquarium(length = 25, width = 25, height = 40)
 //    aquarium6.printSize()
 
-    val myAquarium = Aquarium(length = 25, width = 25, height = 40)
-    myAquarium.printSize()
-    val myTower = TowerTank(height = 40, diameter = 25)
-    myTower.printSize()
+//    val myAquarium = Aquarium(length = 25, width = 25, height = 40)
+//    myAquarium.printSize()
+//    val myTower = TowerTank(height = 40, diameter = 25)
+//    myTower.printSize()
+
 }
 
+fun makeFish(){
+    val myShark = Shark()
+    val myPlecostomus = Plecostomus()
+
+    println("Shark : ${myShark.color}")
+    myShark.eat()
+    println("Plecostomus : ${myPlecostomus.color}")
+    myPlecostomus.eat()
+}
