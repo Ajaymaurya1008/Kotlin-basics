@@ -108,7 +108,4 @@ fun main() {
 //    const val CONSTANT1 = hello() // NOT ok
 
 
-
-
-
 }

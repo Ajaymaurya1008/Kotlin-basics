@@ -12,7 +12,8 @@ class Person(val name: String, var age: Int) {
 ```
 
 2. Data Classes:
-Designed for storing data. Automatically generate equals(), hashCode(), toString(), and copy() methods.
+Designed for storing data, They don't have any methods . Automatically generate equals(), hashCode(), toString(), and copy() methods.
+A data class needs to have at least one parameter in its constructor, and all constructor parameters must be marked with `val` or `var`. A data class also cannot be abstract, open, sealed, or inner.
 Declared using the data class keyword
 ```
 data class User(val id: Int, val name: String)
@@ -89,3 +90,14 @@ class MyClass {
     }
 }
 ```
+
+## Datatypes
+
+https://kotlinlang.org/docs/numbers.html#integer-types
+Number - superclass of all numeric types in kotlin, It includes :
+Int - 32 bit
+Long - 64 bit
+Float - 32 bit ( decimal )
+Double - 64 bit ( decimal )
+Byte - 8 bit
+Short - 16 bit
